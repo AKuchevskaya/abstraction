@@ -1,8 +1,11 @@
 public class Student {
-        private int id;
+        private String id;
         private String name;
-        public Student(int id, String name) {
+        public Student(String id, String name) {
             this.id = id;
             this.name = name;
+        }
+        public String getName() {
+            return id + name;  
         }
 }

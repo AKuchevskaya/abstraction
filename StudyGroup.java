@@ -7,4 +7,11 @@ public class StudyGroup {
         this.teacher = teacher;
         this.students = students;
     }
+    public List<Student> getStudents() {
+        return students;
+    }
+    public Teacher getTeacher() {
+        return teacher;
+    }
+    
 }
